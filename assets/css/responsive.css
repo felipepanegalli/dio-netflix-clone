@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal-movie .container {
+        width: 100%;
+    }
+
+    .principal-movie .description {
+        max-height: 180px;
+        overflow-y: hidden;
+        font-size: 1rem;
+    }
+
+    .button-movie .button {
+        padding: 15px 20px;
+        font-size: .75rem;
+    }
+
+    .button-movie i {
+        margin-right: .5rem;
+    }
+}
